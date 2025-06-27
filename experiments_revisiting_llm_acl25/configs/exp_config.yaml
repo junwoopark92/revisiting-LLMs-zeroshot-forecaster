@@ -1,0 +1,38 @@
+common:
+  project_root_path: '/path/to/project/revisiting-LLMs-zeroshot-forecaster'  # Set your project root path
+  acl_exp_path: '/path/to/experiments_revisiting_llm_acl25'  # Set your informer experiment path
+  omp_num_threads: '4'
+  openai_api_base: https://api.openai.com/v1/
+  openai_api_key: 'YOUR_OPENAI_API_KEY'
+
+datasets:
+  ETTm2:
+    dataset_name: ETTm2.csv
+    n_features: 7
+    data_type: ETTm2
+    seq_len: 384
+    pred_len: 192
+  exchange_rate:
+    dataset_name: exchange_rate.csv
+    n_features: 8
+    data_type: custom
+    seq_len: 384
+    pred_len: 192
+  weather:
+    dataset_name: weather.csv
+    n_features: 21
+    data_type: custom
+    seq_len: 384
+    pred_len: 192
+  electricity:
+    dataset_name: electricity.csv
+    n_features: 321
+    data_type: custom
+    seq_len: 96
+    pred_len: 48
+  traffic:
+    dataset_name: traffic.csv
+    n_features: 862
+    data_type: custom
+    seq_len: 96
+    pred_len: 48 

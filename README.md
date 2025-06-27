@@ -1,0 +1,1 @@
+This project is based on the paper and code from 'Large Language Models Are Zero Shot Time Series Forecasters' (https://arxiv.org/abs/2310.07820).
