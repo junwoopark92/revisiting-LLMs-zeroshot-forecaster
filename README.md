@@ -38,7 +38,7 @@ Each script can be run from the command line. Example commands:
 ```bash
 python experiments_revisiting_llm_acl25/run_informer_five_datasets.py --exp_model LLMTime-GPT-3.5 --exp_dataset ETTm2
 python experiments_revisiting_llm_acl25/run_monash_with_noises.py --exp_model RLinear --noise_type gaussian
-python experiments_revisiting_llm_acl25/run_function_with_noises.py --exp_model LLMTime-GPT-4o --func_name sigmoid
+python experiments_revisiting_llm_acl25/run_function_with_noises.py --exp_model LLMTime-GPT-4 --func_name sigmoid
 ```
 
 Configuration files (YAML) specify dataset paths, OpenAI API keys, and other experiment settings.
