@@ -3,6 +3,8 @@
 # Revisiting LLMs as Zero-Shot Time-Series Forecasters: Small Noise Can Break Large Models
 
 This project is based on and extends the work from ["Large Language Models Are Zero Shot Time Series Forecasters"](https://arxiv.org/abs/2310.07820).
+For environment setup and dataset preparation, please refer to the instructions in the [llmtime GitHub repository](https://github.com/ngruver/llmtime).
+
 
 ## Overview
 
