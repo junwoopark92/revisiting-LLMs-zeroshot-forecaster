@@ -50,7 +50,7 @@ Configuration files (YAML) specify dataset paths, OpenAI API keys, and other exp
 If you use this code or find our work useful, please cite the following paper:
 
 ```
-@inproceedings{junwoo2025revisiting,
+@inproceedings{park2025revisiting,
   title={Revisiting LLMs as Zero-Shot Time-Series Forecasters: Small Noise Can Break Large Models},
   author={Junwoo Park and Hyuck Lee and Dohyun Lee and Daehoon Gwak and Jaegul Choo},
   booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
